@@ -1,0 +1,12 @@
+.banner{
+    background-image: url('../assets/img/AveryLakeside.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 30rem;
+    align-content: center;
+    margin-top: -2rem;
+  }
+
+  .txt{
+    color:black;
+  }

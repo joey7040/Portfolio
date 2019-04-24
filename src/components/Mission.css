@@ -1,0 +1,21 @@
+.jumbotron{
+    background-image: url('../assets/img/averybuilt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30rem; 
+  }
+
+  .display-4{
+    margin-top:10rem;
+    color:white;
+  }
+  
+  .lead{
+    color: white;
+  }
+  
+  .missionStatement{
+    margin-top:8rem;
+    padding-right: 5px;
+  }
+  
