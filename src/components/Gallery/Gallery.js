@@ -40,117 +40,117 @@ export default class PhotoGallery extends Component {
         const photos =[
             {
                 //1
-                src:require('../assets/img/avery_9.jpg'),
+                src:require('../../assets/img/avery_9.jpg'),
                 width:3,
                 height:4,
             },
             {
                 
-                src:require("../assets/img/avery_1.jpg"),
+                src:require("../../assets/img/avery_1.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/avery_2.jpg"),
+                src:require("../../assets/img/avery_2.jpg"),
                 width:3,
                 height:2,
             },
             {
-                src:require("../assets/img/avery_8.jpg"),
+                src:require("../../assets/img/avery_8.jpg"),
                 width:3,
                 height:4,
             },
             {
                 //5
-                src:require("../assets/img/avery_7.jpg"),
+                src:require("../../assets/img/avery_7.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/avery_10.jpg"),
+                src:require("../../assets/img/avery_10.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/avery_11.jpg"),
+                src:require("../../assets/img/avery_11.jpg"),
                 width:5,
                 height:4,
             },
             {
-                src:require("../assets/img/avery_12.jpg"),
+                src:require("../../assets/img/avery_12.jpg"),
                 width:6,
                 height:4,
             },
             {
-                src:require("../assets/img/averyandadlin.jpg"),
+                src:require("../../assets/img/averyandadlin.jpg"),
                 width:4,
                 height:3,
             },
             {
                 //10
-                src:require("../assets/img/AveryLakeside.jpg"),
+                src:require("../../assets/img/AveryLakeside.jpg"),
                 width:5,
                 height:3,
             },
             {
-                src:require("../assets/img/boardslide.jpg"),
+                src:require("../../assets/img/boardslide.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/Chillin.jpg"),
+                src:require("../../assets/img/Chillin.jpg"),
                 width:3,
                 height:5,
             },
             {
-                src:require("../assets/img/avery_16.jpg"),
+                src:require("../../assets/img/avery_16.jpg"),
                 width:3,
                 height:4,
             },
             {
-                src:require("../assets/img/avery_17.jpg"),
+                src:require("../../assets/img/avery_17.jpg"),
                 width:5,
                 height:3,
             },
             {
                 //15
-                src:require("../assets/img/avery_18.jpg"),
+                src:require("../../assets/img/avery_18.jpg"),
                 width:6,
                 height:4,
             },
             {
-                src:require("../assets/img/avery_5.jpg"),
+                src:require("../../assets/img/avery_5.jpg"),
                 width:3,
                 height:2,
             },
             {
-                src:require("../assets/img/avery_4.jpg"),
+                src:require("../../assets/img/avery_4.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/avery_3.jpg"),
+                src:require("../../assets/img/avery_3.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/avery_6.jpg"),
+                src:require("../../assets/img/avery_6.jpg"),
                 width:4,
                 height:3,
             },
             {
                 //20
-                src:require("../assets/img/avery_13.jpg"),
+                src:require("../../assets/img/avery_13.jpg"),
                 width:5,
                 height:3,
             },
             {
-                src:require("../assets/img/avery_14.jpg"),
+                src:require("../../assets/img/avery_14.jpg"),
                 width:3,
                 height:4,
             },
             {
-                src:require("../assets/img/avery_15.jpg"),
+                src:require("../../assets/img/avery_15.jpg"),
                 width:4,
                 height:3,
             },

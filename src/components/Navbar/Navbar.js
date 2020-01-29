@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import styled from "styled-components";
-import {ButtonContainer} from './Button';
 import './Navbar.css';
-import logo from '../assets/img/AveryLogo.png';
+import logo from '../../assets/img/JRlogo.png';
 
 
 export default class Navbar extends Component {
     render(){
         return(
-            <div>
-                <NavWraper className="navbar navbar-expand-lg navbar-light bg-light ">
+            <div className= 'justify-content-center'>
+                <NavWraper className="navbar navbar-expand-lg navbar-light bg-light nav-masthead justify-content-center ">
                             
                             
                             <Link className="nav-item" to="/">
@@ -22,24 +21,20 @@ export default class Navbar extends Component {
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav align-items-center ml-auto">
-                                                        <li className="nav-item">
-                                                            <Link to="/products" className="nav-link">
-                                                                products
-                                                            </Link>
-                                                        </li>
+
                                                         <li className="nav-item">
                                                             <Link to="/mission" className="nav-link">
                                                                 mission
                                                             </Link>
                                                         </li>
                                                         <li className="nav-item">
-                                                            <Link to="/about" className="nav-link">
-                                                                about
+                                                            <Link to="/projects" className="nav-link">
+                                                                projects
                                                             </Link>
                                                         </li>
                                                         <li className="nav-item">
-                                                            <Link to="/donate" className="nav-link">
-                                                                donate
+                                                            <Link to="/affiliates" className="nav-link">
+                                                                affiliations
                                                             </Link>
                                                         </li>
                                                         <li className="nav-item">
@@ -50,12 +45,8 @@ export default class Navbar extends Component {
                                                         
 
                                                         <li>
-                                                        <Link to="/products" className="ml-auto">
-                                                                <ButtonContainer >
-                                                                <span className="mr-2 ml-1">
-                                                                <i className="fas fa-cart-plus"></i>
-                                                                </span>
-                                                                </ButtonContainer>
+                                                        <Link to="/contact" className="nav-link">
+                                                                contact
                                                         </Link>
                                                         </li>
                                                     </ul> 
