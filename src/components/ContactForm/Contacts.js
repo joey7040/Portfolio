@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Eyeball from '../Eyeball/Eyeball.js';
+
 
 
 
@@ -36,9 +36,6 @@ export default class Contact extends Component{
                     </form>
                 </div>
 
-                <div className='container mt-5 pt-5'>
-                     <Eyeball/>
-                </div>
 
 
             </div>
