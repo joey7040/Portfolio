@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                                 <ul className="navbar-nav align-items-center ml-auto">
 
                                                         <li className="nav-item">
-                                                            <Link to="/mission" className="nav-link">
+                                                            <Link to="/resume" className="nav-link">
                                                                 resume
                                                             </Link>
                                                         </li>
