@@ -24,7 +24,7 @@ export default class Navbar extends Component {
 
                                                         <li className="nav-item">
                                                             <Link to="/mission" className="nav-link">
-                                                                mission
+                                                                resume
                                                             </Link>
                                                         </li>
                                                         <li className="nav-item">
@@ -32,16 +32,16 @@ export default class Navbar extends Component {
                                                                 projects
                                                             </Link>
                                                         </li>
-                                                        <li className="nav-item">
+                                                        {/* <li className="nav-item">
                                                             <Link to="/affiliates" className="nav-link">
                                                                 affiliations
                                                             </Link>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <Link to="/gallery" className="nav-link">
+                                                        </li> */}
+                                                        {/* <li className="nav-item">
+                                                            <Link to="/mission" className="nav-link">
                                                                 gallery
                                                             </Link>
-                                                        </li>
+                                                        </li> */}
                                                         
 
                                                         <li>
