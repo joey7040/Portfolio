@@ -10,16 +10,3 @@ body {
   background: var(--mainwhite) !important;
   color: var(--mainDark) !important;
 }
-
-
-
-.btn-outline-warning {
-  color: indigo !important;
-  border-color: indigo !important;
-}
-
-.btn-outline-warning:hover {
-  color: #ffe484 !important;
-  border-color: #ffe484 !important;
-}
-
