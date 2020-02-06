@@ -1,5 +1,5 @@
 {
-  "name": "JRportfolio",
+  "name": "JRportfolioClient",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -7,6 +7,7 @@
     "npm": "6.4.1"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.3.1",
     "dotenv": "^7.0.0",
     "particlesjs": "^2.2.3",
@@ -14,6 +15,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-images": "^0.5.19",
+    "react-mdl": "^2.1.0",
     "react-particles-js": "^2.7.0",
     "react-paypal-express-checkout": "^1.0.5",
     "react-photo-gallery": "^7.0.2",

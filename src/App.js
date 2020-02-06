@@ -7,6 +7,7 @@ import Default from './components/Default404/Default';
 import Mission from './components/Mission/Mission';
 import ProjectUC from './components/Projects/ProjectUC';
 import Contact from './components/ContactForm/Contacts';
+import Resume from './components/Resume/Resume';
 
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
           <Navbar></Navbar>
           <Switch>
             <Route exact path="/" component={Mission} />
-            <Route path="/mission" component={Mission} />
+            <Route path="/resume" component={Resume} />
             <Route path="/projects" component={ProjectUC} />
             <Route path="/contact" component={Contact} />
             <Route component={Default} />
