@@ -4,7 +4,6 @@ import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
 import Skills from '../Skills/skills';
 import myhead from '../../assets/img/myhead.png'
-import './Resume.css';
 
 
 
