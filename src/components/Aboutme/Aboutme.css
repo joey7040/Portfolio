@@ -1,0 +1,19 @@
+.about {
+    background-image: url('../../assets/img/unsplash_2.jpg');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    position: absolute;
+}
+
+.ab-title{
+    margin: auto;
+    margin-top: 20rem;
+    color:white;
+    text-align:center;
+}
+.ab-text{
+    margin: auto;
+    color:white;
+    text-align:center;
+}

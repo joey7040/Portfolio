@@ -4,3 +4,7 @@
     margin-top: -1rem;
     margin-bottom:-1rem;
 }
+
+
+.dropdown-item:focus{
+  background-color: rgb(54, 162, 235) !important ; }

@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
-import './Navbar.css';
 import logo from '../../assets/img/JRlogo.png';
+import './Navbar.css';
 
 
 export default class Navbar extends Component {
@@ -21,33 +21,35 @@ export default class Navbar extends Component {
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav align-items-center ml-auto">
-
-                                                        <li className="nav-item">
-                                                            <Link to="/resume" className="nav-link">
-                                                                resume
-                                                            </Link>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <Link to="/projects" className="nav-link">
-                                                                projects
-                                                            </Link>
-                                                        </li>
-                                                        {/* <li className="nav-item">
-                                                            <Link to="/affiliates" className="nav-link">
-                                                                affiliations
-                                                            </Link>
-                                                        </li> */}
-                                                        {/* <li className="nav-item">
-                                                            <Link to="/mission" className="nav-link">
-                                                                gallery
-                                                            </Link>
-                                                        </li> */}
                                                         
+                                                 
+                                                        
+                                                        <li className="nav-item dropdown">
+                                                            <Link to="/aboutme" className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                explore
+                                                            </Link>
+                                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <Link to="/resume" className=" dropdown-item">
+                                                                Resume
+                                                            </Link>
+                                                            <Link to="/projects" className="dropdown-item">
+                                                                Projects
+                                                            </Link>
+                                                            <Link to="/metrics" className="dropdown-item">
+                                                                Metrics
+                                                            </Link>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/aboutme" className="nav-link">
+                                                                    about me
+                                                            </Link>
+                                                        </li>
 
                                                         <li>
-                                                        <Link to="/contact" className="nav-link">
-                                                                contact
-                                                        </Link>
+                                                            <Link to="/contact" className="nav-link">
+                                                                    contact
+                                                            </Link>
                                                         </li>
                                                     </ul> 
                                                 </div>

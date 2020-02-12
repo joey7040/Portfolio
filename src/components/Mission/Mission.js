@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import './Mission.css'
 import Typing from 'react-typing-animation';
+import ReactLoading from 'react-loading';
 import Particles from 'react-particles-js';
+
 
 
 
@@ -119,22 +121,53 @@ const params = {
 
 
 export default class Mission extends Component {
+
+    state = {
+      done : undefined
+    }
+
+    componentDidMount(){
+      setTimeout(()=>{
+        this.setState({
+          done : true
+        })
+      },800)
+    }
+
+
     render(){
         return(
-            <div className="cover-container" >
-                <Particles className="particles" params={params} />
 
-                <Typing speed={2} className='typewriter container' >
-                    <div>
-                        <h1 className="">Heros are remembered,</h1>
-                        <Typing.Delay ms={1000}/>
-                        <h2>But legends never die...</h2>
-                    </div>
-                </Typing>
 
-                   
+          <div>
+                  {!this.state.done ? (
+               <ReactLoading className="center-load" type={"bars"} color={"black"} />
+                 ) : (
 
-            </div>
+
+                      <div className="cover-container" >
+                        
+                          <Particles className="particles" params={params} />
+                          
+
+                          <Typing speed={2} className='typewriter container' >
+                              <div>
+                                  <h1 className="">Heroes are remembered,</h1>
+                                  <Typing.Delay ms={1000}/>
+                                  <h2>But legends never die...</h2>
+                              </div>
+                          </Typing>
+                          
+                      </div>
+                          
+                
+
+
+                 )}
+
+          </div>
+
+
         )
     }
 }

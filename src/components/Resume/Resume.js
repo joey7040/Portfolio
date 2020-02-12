@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
 import Skills from '../Skills/skills';
+import ReactLoading from 'react-loading';
 import myhead from '../../assets/img/myhead.png'
 
 
@@ -10,9 +11,35 @@ import myhead from '../../assets/img/myhead.png'
 
 
 class Resume extends Component {
+  state = {
+    done: undefined
+  }
+
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        done: true
+      })
+    }, 800);
+  }
+
+
+
   render() {
     return(
-      <div >
+      <div>
+
+
+          {!this.state.done ? (
+          <ReactLoading className="center-load" type={"bars"} color={"black"} />
+          ) : (
+
+
+
+
+
+
             <Grid>
               <Cell col={4}>
                 <div style={{textAlign: 'center'}}>
@@ -20,7 +47,7 @@ class Resume extends Component {
                     src={myhead}
                     alt="avatar"
                     className="avatar-img-2"
-                    style={{height: '20rem'}}
+                    style={{height: '25rem'}}
                     />
                 </div>
 
@@ -49,12 +76,12 @@ class Resume extends Component {
                 <div className="social-links-2">
 
                 {/* LinkedIn */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://linkedin.com/in/joseph-i-rivera/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
                 {/* Github */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/joey7040" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
@@ -193,7 +220,7 @@ class Resume extends Component {
              
               <Skills
                 skill="React"
-                progress={75}
+                progress={100}
                 />
               <Skills
                 skill="Vue"
@@ -207,6 +234,10 @@ class Resume extends Component {
 
           </Cell>
         </Grid>
+
+
+          )}
+
       </div>
     )
   }

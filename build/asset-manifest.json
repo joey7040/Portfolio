@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b56f76df.chunk.css",
+    "main.js": "/static/js/main.b9579d94.chunk.js",
+    "main.js.map": "/static/js/main.b9579d94.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.629e9525.js",
+    "runtime-main.js.map": "/static/js/runtime-main.629e9525.js.map",
+    "static/css/2.fbc6c693.chunk.css": "/static/css/2.fbc6c693.chunk.css",
+    "static/js/2.5ee60880.chunk.js": "/static/js/2.5ee60880.chunk.js",
+    "static/js/2.5ee60880.chunk.js.map": "/static/js/2.5ee60880.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f28229f75d336d8068b47ed2aa1d4c1a.js": "/precache-manifest.f28229f75d336d8068b47ed2aa1d4c1a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fbc6c693.chunk.css.map": "/static/css/2.fbc6c693.chunk.css.map",
+    "static/css/main.b56f76df.chunk.css.map": "/static/css/main.b56f76df.chunk.css.map",
+    "static/js/2.5ee60880.chunk.js.LICENSE": "/static/js/2.5ee60880.chunk.js.LICENSE",
+    "static/media/Mission.css": "/static/media/iceland.b1b48bdf.jpg",
+    "static/media/myhead.png": "/static/media/myhead.4a199f86.png",
+    "static/media/Aboutme.css": "/static/media/unsplash_2.a3db46eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.629e9525.js",
+    "static/css/2.fbc6c693.chunk.css",
+    "static/js/2.5ee60880.chunk.js",
+    "static/css/main.b56f76df.chunk.css",
+    "static/js/main.b9579d94.chunk.js"
+  ]
+}
