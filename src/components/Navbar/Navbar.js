@@ -22,24 +22,24 @@ export default class Navbar extends Component {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav align-items-center ml-auto">
                                                         
-                                                 
-                                                        
-                                                        <li className="nav-item dropdown">
-                                                            <Link to="/aboutme" className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                explore
-                                                            </Link>
-                                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                            <Link to="/resume" className=" dropdown-item">
+                                                        <li>
+                                                        <Link to="/resume" className="nav-link">
                                                                 Resume
-                                                            </Link>
-                                                            <Link to="/projects" className="dropdown-item">
-                                                                Projects
-                                                            </Link>
-                                                            <Link to="/metrics" className="dropdown-item">
-                                                                Metrics
-                                                            </Link>
-                                                            </div>
+                                                        </Link>
                                                         </li>
+                                                        
+                                                        <li>
+                                                        <Link to="/projects" className="nav-link">
+                                                                Projects
+                                                        </Link>
+                                                        </li>
+
+                                                        <li>
+                                                        <Link to="/metrics" className="nav-link">
+                                                                Metrics
+                                                        </Link>
+                                                        </li>
+
                                                         <li>
                                                             <Link to="/aboutme" className="nav-link">
                                                                     about me
@@ -65,7 +65,6 @@ export default class Navbar extends Component {
 const NavWraper = styled.nav`
     background:var(--mainBlue);
     .nav-link{
-        color:var(--mainDark) !important;
         font-size:1.3rem;
         text-transform: capitalize !important;
     }

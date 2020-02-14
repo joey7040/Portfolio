@@ -6,5 +6,13 @@
 }
 
 
-.dropdown-item:focus{
-  background-color: rgb(54, 162, 235) !important ; }
+.nav-link:focus{
+  color: rgb(54, 162, 235) !important ; }
+
+
+.nav-link:active{
+    color: rgb(54, 162, 235) !important ; }
+
+.dropdown-item:{
+  text-align: center !important;
+}
