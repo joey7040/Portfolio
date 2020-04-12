@@ -100,7 +100,7 @@ export default class Contact extends Component{
                 </div>
 
 
-                <form className ='container mt-4'>
+                <form className ='container col-sm-12 mt-4'>
                     <div className="form-group">
                         <label forhtml="name">Name</label>
                         <input name='name'type="text" className="form-control" value={this.state.name} onChange={this.handleChange} />

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Polar} from 'react-chartjs-2';
+import {Polarnut, Polar} from 'react-chartjs-2';
 
 
 export default class PolarChart extends Component {

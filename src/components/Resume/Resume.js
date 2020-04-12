@@ -27,6 +27,8 @@ class Resume extends Component {
 
 
   render() {
+
+
     return(
       <div>
 
@@ -98,14 +100,14 @@ class Resume extends Component {
                 startYear={2019}
                 endYear="Present"
                 jobName="Trellance - Software Engineer"
-                jobDescription="Design and build user interface solutions using Javascript and SPA frameworks such as AngularJS, React, VueJS ,& Webix.
-                with a Python ORM that interacts with a MySQL server.
-                My duties also include working on Python server RESTful solutions in addition to Javascript tasks.
-                As well as deliver results in software/technology sales proof of concept events, support events, and software upgrade events.
-                I also participate in providing and implementing recommendations for security and privacy configuration options as it relates to AWS, with the goal of meeting various compliance guidelines.
-                Deploy and monitor migrations for new customers transitioning to our custom software from a competitor’s solution.
-                I'm also responsible for the enhancement existing systems by analyzing business objectives, preparing an action plan and identifying areas for modification and improvement.
-                I create technical specifications and test plans & investigate and develop skills in new technologies."
+                jobDescription="    
+                • Created dynamic apis and core connectors for data pipelines.\n
+                • Developed and maintained enterprise applications in production software.\n
+                • Provide continuous support for production issues.\n
+                • Vulnerability patch management.\n
+                • Design and build user interfaces in JavaScript es6 based off business requirements.\n
+                • Deployed and maintained cloud SaaS platform.\n 
+                • Created automated deployment processes for underlying cloud infrastructure.\n"
                 />
 
               <Experience
