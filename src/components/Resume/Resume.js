@@ -72,9 +72,8 @@ class Resume extends Component {
    
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 <p>Hello, my name is Joey Rivera, I’m a mid to senior level full stack developer. Every day I work with technologies such as Python, Javascript, Linux, & Aws Cloud infrustructue. 
-                Working at my current company Trellance, has placed me in the center of making great technology that will drive the future in data analytics for the credit union financial services space.   
-                While Creating enterprise grade applications with a front end written in JavaScript as well as Python and MySQL on the back-end. 
-                I’ve also deployed and maintained cloud security architecture and created automated deployment processes for underlying cloud infrastructure.
+                Working at my current company Trellance, has placed me in the center of making great technology that will drive the future in data analytics for the credit union financial services space.    
+                While creating new features for the ironsafe platform I’ve also createdm deployed, and maintained cloud security architecture. As well as created automated deployment processes for the platforms underlying cloud infrastructure in AWS.
                 For little over a year now I've been working on dynamic apis that create predictive analytics tools for the medical & financial sector. I encourage those who are curious to check out <a href="https://www.trellance.com/ironsafe-data-extraction-platform/">Ironsafe here. </a>
                 When I find free time, I practice for competitve esports and make content to help others improve their skillsets in programming pradigms popular in the job market today.
                 I aspire to contribute as much as possible back to the community that has given me much more than I could ever ask for. </p>
