@@ -3,8 +3,12 @@ import { Grid, Cell } from 'react-mdl';
 import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
 import Skills from '../Skills/skills';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import ReactLoading from 'react-loading';
+import {Link} from 'react-router-dom'
 import myhead from '../../assets/img/myhead.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRProject } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -56,12 +60,24 @@ class Resume extends Component {
         
 
                 <h2 style={{paddingTop: '2em'}}>Joey Rivera</h2>
-                <h4 style={{color: 'grey'}}>Programmer</h4>
+                <div className="row">
+                
+                <div className="ml-3 mt-3 mr-4">
+                <Link className='btn btn-primary' to="/resume/JRivera-Resume-2020.pdf" target="_blank" download>Download CV</Link>
+                </div>
+                <FontAwesomeIcon icon={faCoffee} size="3x"className="m-2" ></FontAwesomeIcon>
+                </div>
+                <h4 style={{color: 'grey'}}>Fullstack Developer</h4>
                 
    
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                <p>I’m a mid level full stack software engineer with experience in tech such as Python, Node, Databases & Cloud. I currently work at Trellance creating enterprise grade applications with a front end written in JavaScript as well as Python and MySQL on the back-end. I’ve also deployed and maintained cloud security architecture and created automated deployment processes for underlying cloud infrastructure. While also working on dynamic apis that create predictive analytics tools for the medical & financial sector.
-                When I find free time, I focus on diving deeper into JS & Py frameworks and libraries learning AI and Machine learning as well as neural networks and Deep Learning. I’m in the works of making great technology that will drive the future in data analytics. Currently employed. </p>
+                <p>Hello, my name is Joey Rivera, I’m a mid to senior level full stack developer. Every day I work with technologies such as Python, Javascript, Linux, & Aws Cloud infrustructue. 
+                Working at my current company Trellance, has placed me in the center of making great technology that will drive the future in data analytics for the credit union financial services space.   
+                While Creating enterprise grade applications with a front end written in JavaScript as well as Python and MySQL on the back-end. 
+                I’ve also deployed and maintained cloud security architecture and created automated deployment processes for underlying cloud infrastructure.
+                For little over a year now I've been working on dynamic apis that create predictive analytics tools for the medical & financial sector. I encourage those who are curious to check out <a href="https://www.trellance.com/ironsafe-data-extraction-platform/">Ironsafe here. </a>
+                When I find free time, I practice for competitve esports and make content to help others improve their skillsets in programming pradigms popular in the job market today.
+                I aspire to contribute as much as possible back to the community that has given me much more than I could ever ask for. </p>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 <h5>Address</h5>
                 <p>3350 W Hillsborough ave Tampa FL</p>
