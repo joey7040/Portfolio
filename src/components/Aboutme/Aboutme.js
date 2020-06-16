@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactLoading from 'react-loading';
 import Section1 from './aboutsection1';
 import Section2 from './aboutsection2';
-import ProjuctUC from '../Projects/ProjectUC';
+
 import './Aboutme.css'
 import Section3 from './aboutsection3';
 import Section4 from './aboutsection4';

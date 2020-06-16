@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import BarChart from '../Charts/BarChart';
-import PolarChart from '../Charts/PolarChart';
+
 
 import './Aboutme.css'
 

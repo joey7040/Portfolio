@@ -23,6 +23,12 @@ export default class Navbar extends Component {
                                 <ul className="navbar-nav align-items-center ml-auto">
                                                         
                                                         <li>
+                                                            <Link to="/aboutme" className="nav-link">
+                                                                About Me
+                                                            </Link>
+                                                        </li>
+                                                        
+                                                        <li>
                                                         <Link to="/resume" className="nav-link">
                                                                 Resume
                                                         </Link>
@@ -39,16 +45,9 @@ export default class Navbar extends Component {
                                                                 Metrics
                                                         </Link>
                                                         </li>
-
-                                                        <li>
-                                                            <Link to="/aboutme" className="nav-link">
-                                                                    about me
-                                                            </Link>
-                                                        </li>
-
                                                         <li>
                                                             <Link to="/contact" className="nav-link">
-                                                                    contact
+                                                                Contact
                                                             </Link>
                                                         </li>
                                                     </ul> 

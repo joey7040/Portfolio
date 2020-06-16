@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {yoda} from '../../assets/img/yoda.jpg'
 import './Aboutme.css'
 

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
 import Default from './components/Default404/Default';
 import Mission from './components/Mission/Mission';
