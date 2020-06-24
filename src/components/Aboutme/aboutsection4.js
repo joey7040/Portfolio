@@ -11,19 +11,19 @@ import './Aboutme.css'
 const Section4 = () =>{
     return <div className="container-fluid ab-4">
     <div className="container ">
-    <h2 className="ab-titl-4">Follow me</h2>
+    <h2 className="ab-titl-4">Follow me!</h2>
     <div className="ab-text-4">
         <div className="row">
-        <h5>You can catch me on the following</h5>
+        <h5>You can catch me on these platforms</h5>
         </div>
         <div className="row">
-            <a className="mr-2"  target="_blank"  rel="noopener noreferrer"  href='https://www.linkedin.com/in/joseph-i-rivera/'>
+            <a className="mr-4"  target="_blank"  rel="noopener noreferrer"  href='https://www.linkedin.com/in/joseph-i-rivera/'>
             <FontAwesomeIcon icon={faLinkedin} size="4x"/>
             </a>
-            <a className="mr-2"  target="_blank" rel="noopener noreferrer"  href='https://www.instagram.com/joeyvision/'>
+            <a className="mr-4"  target="_blank" rel="noopener noreferrer"  href='https://www.instagram.com/joeyvision/'>
             <FontAwesomeIcon icon={faInstagram} size="4x"/>
             </a>
-            <a className="mr-2"  target="_blank" rel="noopener noreferrer"  href="https://twitter.com/JoeySaiyancoder">
+            <a className="mr-4"  target="_blank" rel="noopener noreferrer"  href="https://twitter.com/JoeySaiyancoder">
             <FontAwesomeIcon icon={faTwitter} size="4x"/>
             </a>
         </div>

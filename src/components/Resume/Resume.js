@@ -8,7 +8,7 @@ import ReactLoading from 'react-loading';
 import {Link} from 'react-router-dom'
 import myhead from '../../assets/img/myhead.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRProject } from '@fortawesome/free-brands-svg-icons';
+// import { faRProject } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -116,46 +116,56 @@ class Resume extends Component {
                 endYear="Present"
                 jobName="Trellance - Software Engineer"
                 jobDescription="    
-                • Created dynamic apis and core connectors for data pipelines.\n
-                • Developed and maintained enterprise applications in production software.\n
-                • Provide continuous support for production issues.\n
-                • Vulnerability patch management.\n
-                • Design and build user interfaces in JavaScript es6 based off business requirements.\n
-                • Deployed and maintained cloud SaaS platform.\n 
-                • Created automated deployment processes for underlying cloud infrastructure.\n"
+                 Created dynamic apis and core connectors for data pipelines.
+                 Developed and maintained enterprise applications in production software.
+                 Provide continuous support for production issues.
+                 Vulnerability patch management.
+                 Design and build user interfaces in JavaScript es6 based off business requirements.
+                 Deployed and maintained cloud SaaS platform. 
+                 Created automated deployment processes for underlying cloud infrastructure."
                 />
 
               <Experience
                 startYear={2018}
                 endYear={2019}
                 jobName="Verizon - Front End Software Engineer (Contractor)"
-                jobDescription="Contracted with Verizon Wireless. 
-                I create SPAs with angular 7 to be used by other Verizon employees. 
-                My roll was responsible for documenting and managing multiple applications 
-                and creating clean reusable and maintainable code. As well as create working 
-                applications from mock-ups/wire-frames, and work closely with the design team 
-                about approved designs. Communicating with clients about any potential road blocks 
-                with development and gather user feedback to ensure quality of user experience. 
-                Other technologies I would like to include where jQuery, JavaScript, TypeScript."
+                jobDescription="
+                Coded clean syntax for enterprise grade web applications. 
+
+                Worked closely with a design team to create working applications from mock-ups.  
+                
+                Created Bootstrap & JavaScript libraries with Angular 7.  
+                
+                Wrote reusable code and debugged issues within interfaces. 
+                
+                Managed multiple applications at once and communicate with teams across Verizon on development solutions. "
                 />
               <Experience
                 startYear={2018}
                 endYear={2018}
                 jobName="Germinal Resources - Front End Software Developer (Contractor)"
-                jobDescription="Responsible for implementing visual elements that users see and interact 
-                with in a web application. Develop new user-facing features, 
-                Build reusable code and libraries for future use, Ensure the technical 
-                feasibility of UI/UX designs, Optimize application for maximum speed and scalability, 
-                Assure that all user input is validated before submitting to back-end.
-                Create service calls that will make back-end calls and create apis to 
-                communicate with mysql database.
-                Speak directly with clients about design and brand identity to ensure content was in line with marketing teams approved designs. As well as meet short timeline deadlines. "
+                jobDescription="
+                Provided web development services for small businesses, startups, & large companies.  
+
+                Created dynamic front-end interfaces with AngularJS.  
+                
+                Created mobile first native applications with Angular mobile UI and Cordova. 
+                
+                Created favicons and other application images to match application themes and structure.  "
                 />
               <Experience
                 startYear={2017}
                 endYear={2018}
                 jobName="Free Lance Web Developer"
-                jobDescription="Develop websites with Html, Css, Javascript, PHP and WordPress CMS.
+                jobDescription="
+                Provided web development services for clients from various sources. 
+
+                Created dynamic front-end interfaces in TypeScript with Angular.  
+
+                Created mobile first native applications with Angular mobile UI and Cordova. 
+
+                Built websites using HTML5, CSS3, JavaScript, jQuery & WordPress.
+
                 http://wetruerealty.com/
                 
                 http://www.framco.org/

@@ -19,8 +19,12 @@ const Section1 = () =>{
                         </div>
                     </div>
                     <div className='col'>
-                        <p>image of me will go here</p>
-                    
+                    <img
+                            src={require('../../assets/img/meandaidan.jpg')}
+                            alt="gamer-pic"
+                            // className="avatar-img-2"
+                            style={{height: '20rem'}}
+                            />
                     </div>
                 </div>
             </div>
