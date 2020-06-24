@@ -6,7 +6,7 @@ const Section1 = () =>{
     return <div className="container-fluid ab-1">
             <div className="container ">
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col-md-3'>
                         <h2 className="ab-title-1">About me</h2>
                         <div className="ab-text-1">
                             <h5>I'm a software engineer based in sunny Tampa, Florida.</h5>
@@ -18,7 +18,7 @@ const Section1 = () =>{
 
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-md-3'>
                     <img
                             src={require('../../assets/img/meandaidan.jpg')}
                             alt="gamer-pic"
