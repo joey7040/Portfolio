@@ -6,7 +6,7 @@ import Skills from '../Skills/skills';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import ReactLoading from 'react-loading';
 import {Link} from 'react-router-dom'
-import myhead from '../../assets/img/myhead.png'
+import myhead from '../../assets/img/meinwater.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faRProject } from '@fortawesome/free-brands-svg-icons';
 
@@ -53,7 +53,7 @@ class Resume extends Component {
                     src={myhead}
                     alt="avatar"
                     className="avatar-img-2"
-                    style={{height: '25rem'}}
+                    style={{height: '25rem', width:'25rem'}}
                     />
                 </div>
 

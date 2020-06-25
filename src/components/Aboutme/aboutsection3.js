@@ -13,14 +13,14 @@ const Section3 = () =>{
     <div className='col'>
             <h2 className="ab-title-3">Fun Facts</h2>
             <div className="ab-text-3">
-                <p>I've been skateboarding for 14 years</p>
-                <p>I was born and raised in florida</p>
+                <p>I've been skateboarding for 14 years.</p>
+                <p>I was born and raised in florida.</p>
                 <p>I fly drones for fun</p>
-                <p>I used to bar tend, so I know how to make good drinks.</p>
+                <p>I used to bar tend.</p>
                 <p>I'm in love with good food and like to cook it.</p>
-                <p>I'm knowledgeable in cheese and wine oddly enough.</p>
+                <p>I'm knowledgeable in cheese and wine.</p>
                 <p>I'm addicted to winning in call of duty warzone.</p>
-                <p>I am a jedi</p>
+                <p>I am a jedi when it comes to programming.</p>
                 
 
             </div>
